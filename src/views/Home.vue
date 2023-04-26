@@ -1,4 +1,9 @@
 <script lang="ts">
+export default {
+    components: {
+        Home: () => import('@/views/Home.vue'),
+    }
+}
 </script>
 
 <template>

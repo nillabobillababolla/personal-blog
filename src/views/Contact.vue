@@ -1,4 +1,9 @@
 <script lang="ts">
+export default {
+    components: {
+        Contact: () => import('@/views/Contact.vue'),
+    }
+}
 </script>
 
 <template>
